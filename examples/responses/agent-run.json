@@ -1,0 +1,16 @@
+{
+  "content": "可先了解家长对预算和课程价值的具体顾虑，再结合已核实资料说明；当前样例没有引用知识。",
+  "session_id": "synthetic-session",
+  "citations": [],
+  "retrieved_count": 0,
+  "retrieval_summary": {
+    "total_count": 0,
+    "primary_source": "generic",
+    "primary_label": "通用建议",
+    "message": "合成接口示例，非线上返回",
+    "used_fallback": false,
+    "source_stats": []
+  },
+  "pending_confirmation": null,
+  "recommended_courses": []
+}
