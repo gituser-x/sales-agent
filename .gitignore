@@ -13,9 +13,9 @@ venv/
 node_modules/
 dist/
 build/
-uploads/
-logs/
-backups/
+/uploads/
+/logs/
+/backups/
 *.sql
 *.sqlite*
 *.db

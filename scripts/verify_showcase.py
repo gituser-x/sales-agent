@@ -39,7 +39,7 @@ for path in files:
                 failures.append(f'{relative}: broken link {local}')
 
 for item in json.loads((ROOT/'docs/source-manifest.json').read_text(encoding='utf-8')):
-    digest = hashlib.sha256((ROOT/item['file']).read_bytes()).hexdigest()
+    digest = hashlib.sha256((ROOT/item['file']).read_text(encoding='utf-8').encode('utf-8')).hexdigest()
     if digest != item['sha256']:
         failures.append(f"{item['file']}: source hash mismatch")
 
